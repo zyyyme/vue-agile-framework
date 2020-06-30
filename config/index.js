@@ -40,7 +40,7 @@ build: {
   index: path.resolve(__dirname, '../docs/index.html'),
   assetsRoot: path.resolve(__dirname, '../docs'),
   assetsSubDirectory: 'static',
-  assetsPublicPath: 'vue-agile-framework/docs/static',
+  assetsPublicPath: './',
   productionSourceMap: true,
   devtool: '#source-map',
   productionGzip: false,
