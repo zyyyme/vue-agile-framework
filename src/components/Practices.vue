@@ -112,7 +112,7 @@ body{
     background-color: rgba(126, 200, 189, 0.6);
     box-shadow: 0 0 6px 1px #888;
     border-radius: 15px;
-
+    font-weight: 300;
     font-size: 16pt;
     text-align: left;
 }

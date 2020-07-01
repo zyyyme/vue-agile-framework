@@ -206,6 +206,7 @@ export default {
       margin-bottom: 0;
       color: #333333;
       font-size: 16pt;
+      font-weight: 300;
   }
 
   .border-0 {
