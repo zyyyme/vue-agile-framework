@@ -3,7 +3,7 @@
     <div class='container col-10 col-lg-8 mt-5'>
       <div class='row'>
           <div class='col-12 text-center border-left development'>
-              <h1> Pre-Project </h1>
+              <h1> Key Artifacts </h1>
           </div>
       </div>
       <!-- List of artifacts -->

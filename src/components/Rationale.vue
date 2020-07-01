@@ -135,5 +135,7 @@ export default {
 </script>
 
 <style scoped>
-
+    svg {
+        font-weight: 300;
+    }
 </style>
