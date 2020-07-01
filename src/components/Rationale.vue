@@ -1,6 +1,125 @@
 <template>
   <div id='app'> 
-    {{msg}}
+    <svg height="1000" width="1000">
+        <defs>
+            <marker id="arrowhead" markerWidth="10" markerHeight="7"
+                    refX="0" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" />
+            </marker>
+        </defs>
+        <path d="M528.5,706 a200 100 30 0 1 -100 100" stroke="black" fill="transparent" marker-end="url(#arrowhead)"></path>
+        <path d="M440,502.5 a200 100 -30 0 1 -100 -100" stroke="black" fill="transparent" marker-end="url(#arrowhead)"></path>
+        <path d="M658.5 526.5 a200 100 30 0 0 100 -100" stroke="black" fill="transparent" marker-end="url(#arrowhead)"></path>
+        <a href="product.html"><path d="
+        M342,670
+        L538,335
+        A 7 7 0 0 1 548,336
+        A 1000 1000 0 0 1 585,436
+        A 1000 1000 0 0 1 602,516
+        A 500 500 0 0 1 602,556
+        A 100 100 0 0 0 489 529
+        A 800 800 0 0 0 342,670" fill="#FFDA71" fill-opacity="100%" stroke="#333333" stroke-width="1px"></path></a>
+        <a href="dev_team.html"><path d="
+        M561,359
+        L756,694
+        A 7 7 0 0 1 749,702
+        A 1000 1000 0 0 1 699,696
+        A 1000 1000 0 0 1 597,673
+        A 500 500 0 0 1 531,640
+        A 100 100 0 0 0 606,516
+        A 800 800 0 0 0 561,359
+        " fill="#FFEA9E" fill-opacity="90%" stroke="#333333" stroke-width="1px"></path></a>
+        <a href="dev_team.html"><path d="
+        M718,706
+        L331,706
+        A 7 7 0 0 1 331,694
+        A 1000 1000 0 0 1 356,660
+        A 1000 1000 0 0 1 398,612
+        A 500 500 0 0 1 492,538
+        A 100 100 0 0 0 553,662
+        A 800 800 0 0 0 718,706
+        " fill="#FBEBB5" fill-opacity="76%" stroke="#333333" stroke-width="1px"></path></a>
+        <a href="product.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333"  x="475" y="465">Product</text></a>
+        <a href="dev_team.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333"  x="590" y="650">Dev team</text></a>
+        <a href="customer.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333" x="380" y="660">Customer</text></a>
+        <path d="
+        M145,250
+        h310
+        a20 20 0 0 1 20 20
+        v105
+        a20 20 0 0 1 -20 20
+        h-310
+        a20 20 0 0 1 -20 -20
+        v-105
+        a20 20 0 0 1 20 -20
+        Z
+    " fill="none" stroke="#333333" stroke-width="3px"></path>
+        <path d="
+        M675,270
+        h300
+        a20 20 0 0 1 20 20
+        v110
+        a20 20 0 0 1 -20 20
+        h-300
+        a20 20 0 0 1 -20 -20
+        v-110
+        a20 20 0 0 1 20 -20
+        Z
+    " fill="none" stroke="#333333" stroke-width="3px"></path>
+        <path d="
+        M115,750
+        h285
+        a20 20 0 0 1 20 20
+        v70
+        a20 20 0 0 1 -20 20
+        h-285
+        a20 20 0 0 1 -20 -20
+        v-70
+        a20 20 0 0 1 20 -20
+        Z
+    " fill="none" stroke="#333333" stroke-width="3px"></path>
+        <text font-family="Roboto Slab" stroke="#333333" font-size="20" y="280">
+            <tspan x="180">Represent the needs </tspan>
+            <tspan dy="20" x="180">of the target audience</tspan>
+        </text>
+        <text font-family="Roboto Slab" stroke="#0000ff" font-size="20" y="300">
+            <tspan dy="40" x="130">Minimum waste & Maximum value</tspan>
+            <tspan dy="40" x="200">People oriented</tspan>
+        </text>
+
+        <text font-family="Roboto Slab" stroke="#333333" font-size="20" y="300">
+            <tspan x="680">Knows how to implement ideas</tspan>
+        </text>
+        <text font-family="Roboto Slab" stroke="#0000ff" font-size="20" y="300">
+            <tspan dy="40" x="660">Cross-functional & Self-organizing </tspan>
+            <tspan dy="40" x="760">On time delivery</tspan>
+        </text>
+
+        <text font-family="Roboto Slab" stroke="#333333" font-size="20" y="780">
+            <tspan x="105">Knows how to run the business</tspan>
+        </text>
+        <text font-family="Roboto Slab" stroke="#0000ff" font-size="20" y="800">
+            <tspan dy="40" x="100">Transparency & Communication</tspan>
+        </text>
+
+        <path d="
+        M150,30
+        h800
+        a20 20 0 0 1 20 20
+        v70
+        a20 20 0 0 1 -20 20
+        h-800
+        a20 20 0 0 1 -20 -20
+        v-70
+        a20 20 0 0 1 20 -20
+        Z
+    " fill="none" stroke="#333333" stroke-width="3px"></path>
+        <text font-family="Roboto Slab" stroke="#333333" font-size="24" y="60">
+            <tspan x="140">Make high-quality product that corresponds to the business needs while</tspan>
+            <tspan dy="24" x="140">keeping the work most efficient and comfortable for the development</tspan>
+            <tspan dy="24" x="140">team via means of effective communication with constant feedback.</tspan>
+        </text>
+    </svg>
   </div>
 </template>
 

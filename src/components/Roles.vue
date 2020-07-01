@@ -1,101 +1,53 @@
 <template>
   <div id='app'> 
-    <div class="container measurements">
-      <div class="row">
-          <div class="col-2 col-border team"><h1>Small team</h1></div>
-          <div class="col-5 col-border team"><h1>Medium-sized team</h1></div>
-          <div class="col-5 col-border team"><h1>Big team</h1></div>
-      </div>
-      <div class="row borders">
-          <div class="col-2 col-border">
-              <div class="row">
-                  <div class="col">
-                      <div class="panel panel-small panel-product-owner"><p><a href="roles/product_owner.html">Product Owner</a></p></div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col">
-                      <div class="panel panel-small panel-team-lead"><p><a href="roles/team_lead.html">Team Leader</a></p></div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col">
-                      <div class="panel panel-small panel-development-team"><p><a href="roles/development_team.html">Development team</a></p></div>
-                  </div>
-              </div>
-          </div>
+    <svg height="1000" width="1000">
 
-          <div class="col-5 col-border">
-              <div class="row align">
-                  <div class="col">
-                      <div class="panel panel-small panel-product-owner panel-medium">
-                          <p><a href="roles/business_sponsor.html">Business sponsor</a></p>
-                          <p><a href="roles/senior_designer.html">Senior designer</a></p>
-                          <p><a href="roles/project_manager.html">Project manager</a></p>
-                          <p><a href="roles/business_expert.html">Business expert/Business analyst</a></p>
-                      </div>
-                  </div>
-              </div>
-              <div class="row align">
-                  <div class="col">
-                      <div class="panel panel-small panel-team-lead panel-medium">
-                          <p><a href="roles/master.html">Master/Coach</a></p>
-                          <p><a href="roles/teamlead_tracker.html">Team Leader/Tracker</a></p>
-                      </div>
-                  </div>
-              </div>
-              <div class="row align">
-                  <div class="col">
-                      <div class="panel panel-small panel-development-team panel-medium">
-                          <h2><a href="roles/development_team.html">Development team</a></h2>
-                          <p><a href="roles/tester.html">Tester</a></p>
-                          <p><a href="roles/ui_designer.html">UI Designer</a></p>
-                          <p><a href="roles/writer.html">Writer</a></p>
-                          <p><a href="roles/architect.html">Architect</a></p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-5 col-border">
-              <div class="row align">
-                  <div class="col">
-                      <div class="panel panel-small panel-product-owner panel-big">
-                          <p><a href="roles/business_sponsor.html">Business sponsor</a></p>
-                          <p><a href="roles/senior_designer.html">Senior designer</a></p>
-                          <p><a href="roles/project_manager.html">Project manager</a></p>
-                          <p><a href="roles/business_visionary.html">Business visionary</a></p>
-                          <p><a href="roles/technical_coordinator.html">Technical coordinator</a></p>
-                          <p><a href="roles/business_analyst.html">Business expert/Business analyst</a></p>
-                      </div>
-                  </div>
-              </div>
-              <div class="row align">
-                  <div class="col">
-                      <div class="panel panel-small panel-team-lead panel-big">
-                          <p><a href="roles/master.html">Master/Coach</a></p>
-                          <p><a href="roles/teamlead_tracker.html">Team Leader/Tracker</a></p>
-                      </div>
-                  </div>
-              </div>
-              <div class="row align">
-                  <div class="col">
-                      <div class="panel panel-small panel-development-team panel-big">
-                          <h2><a href="roles/development_team.html">Development team</a></h2>
-                          <p><a href="roles/tester.html">Tester</a></p>
-                          <p><a href="roles/ui_designer.html">UI Designer</a></p>
-                          <p><a href="roles/writer.html">Writer</a></p>
-                          <p><a href="roles/architect.html">Architect</a></p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-2 col-border small"><h2>1-6 members</h2></div>
-          <div class="col-5 col-border medium"><h2>6-20 members</h2></div>
-          <div class="col-5 col-border big"><h2>20-40 members</h2></div>
-      </div>
-    </div>
+        <line x1="590.212" y1="461.804" x2="707.768" y2="500" stroke-dasharray="4" stroke="#000000"></line>
+        <line x1="517.558" y1="238.196" x2="590.211" y2="138.197" stroke-dasharray="4" stroke="#000000"></line>
+        <line x1="282.442" y1="238.196" x2="209.789" y2="138.197" stroke-dasharray="4" stroke="#000000"></line>
+        <line x1="209.788" y1="461.804" x2="92.232" y2="500" stroke-dasharray="4" stroke="#000000"></line>
+
+        <line x1="400" y1="600" x2="400" y2="723.606" stroke-dasharray="4" stroke="#000000"></line>
+        <a href="team_lead.html"><path  d="
+        M 400.000 600.000
+        L 635.114 723.606
+        L 590.212 461.804
+        L 400.000 600.000" fill="#7EC8BD" fill-opacity="60%"></path></a>
+
+        <a href="coach.html"><path d="
+        M 590.212 461.804
+        L 780.422 276.394
+        L 517.558 238.196
+        L 590.212 461.804" fill="#78C0B6" fill-opacity="100%"></path></a>
+
+        <a href="project_manager.html"><path d="
+        M 517.558 238.196
+        L 400.000 0.000
+        L 282.442 238.196
+        L 517.558 238.196" fill="#228E95" fill-opacity="90%"></path></a>
+
+        <a href="tester.html"><path d="
+        M 282.442 238.196
+        L 19.578 276.394
+        L 209.788 461.804
+        L 282.442 238.196" fill="#FFDA71" fill-opacity="100%"></path></a>
+
+        <a href="dev_team.html"><path d="
+        M 209.788 461.804
+        L 164.886 723.606
+        L 400.000 600.000
+        L 209.788 461.804" fill="#FFEA9E" fill-opacity="71%"></path></a>
+
+        <a href="team_lead.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: bold" transform="rotate(-36)" y="780"><tspan x="40">Team</tspan><tspan x="45" dy="30">Lead</tspan></text></a>
+        <a href="coach.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: bold" transform="rotate(72)" x="455" y="-460">Coach</text></a>
+        <a href="project_manager.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: bold" transform="rotate(0)" y="160"><tspan x="350">Project</tspan><tspan x="340" dy="30">Manager</tspan></text></a>
+        <a href="tester.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: bold" transform="rotate(288)" x="-300" y="300">Tester</text></a>
+        <a href="dev_team.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: bold"   transform="rotate(36)" y="290"><tspan x="465">Development</tspan><tspan x="510" dy="30">Team</tspan></text></a>
+
+        <text font-family="Roboto Slab" style="font-size: 70px; color: #333333; font-weight: bold" x="320" y="420">Roles</text>
+
+
+    </svg>
   </div>
 </template>
 
@@ -111,147 +63,4 @@ export default {
 </script>
 
 <style scoped>
-@media only screen and (min-width: 576px) and (max-device-width : 900px){
-    .panel-small {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: 50px;
-        width: 60px;
-    }
-    .panel-medium {
-        margin-bottom: 10px;
-        margin-top: 10px;
-        height: 130px;
-        width: 165px;
-    }
-    .panel-big {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: 175px;
-        width: 190px;
-    }
-    .h1 {
-        font-weight: bold;
-        font-size: 24px;
-    }
-    h2 {
-        font-size: 17px;
-        font-weight: bold;
-    }
-    p {
-        font-size: 9px;
-    }
-}
-
-@media only screen and (min-width: 900px) and (max-device-width : 1200px){
-    .panel-small {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: 100px;
-        width: 100px;
-    }
-    .panel-medium {
-        margin-bottom: 10px;
-        margin-top: 10px;
-        height: 200px;
-        width: 250px;
-    }
-    .panel-big {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: 290px;
-        width: 270px;
-    }
-    .h1 {
-        font-weight: bold;
-        font-size: 40px;
-    }
-    h2 {
-        font-size: 24px;
-        font-weight: bold;
-    }
-    p {
-        font-size: 20px;
-    }
-}
-
-@media only screen and (min-width: 1200px){
-    .panel-small {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: 100px;
-        width: 150px;
-    }
-    .panel-medium {
-        margin-bottom: 10px;
-        margin-top: 10px;
-        height: 225px;
-        width: 350px;
-    }
-    .panel-big {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: 275px;
-        width: 350px;
-    }
-    .h1 {
-        font-weight: bold;
-        font-size: 40px;
-    }
-}
-
-    .col-border:not(:last-child) {
-        border-right: 1px solid #333333;
-    }
-    .col-border + .col-border {
-        border-left: 2px solid #333333;
-        margin-left: 0px;
-    }
-    .borders {
-        border-bottom: solid 2px #333333;
-        border-top: solid 2px #333333;
-    }
-    .panel-product-owner {
-        background: rgba(34,142,149,0.9);
-    }
-    .panel-team-lead {
-        background: #78C0B6;
-        opacity: 100%;
-    }
-    .panel-development-team {
-        background: rgba(126,200,189,0.6);
-    }
-    .align {
-        margin: 0 auto;
-    }
-    p {
-        color: #333333;
-    }
-    a {
-        color: #333333;
-        text-decoration: none;
-    }
-    .panel {
-        border: solid 0px;
-        border-radius: 10px;
-    }
-    body {
-        font-family: "Roboto Slab";
-        color: #333333;
-        background: #ffffff;
-        text-align: center;
-    }
-    .small {
-        background: rgba(251,235,181,0.76);
-        font-weight: bold;
-    }
-    .medium {
-        background: rgba(255,234,158,0.71);
-        font-weight: bold;
-    }
-    .big {
-        opacity: 100%;
-        background: #FFDA71;
-        font-weight: bold;
-    }
 </style>

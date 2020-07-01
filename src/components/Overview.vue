@@ -191,7 +191,8 @@ export default {
       padding: .5rem 1.25rem;
       margin-bottom: 0;
       color: #333333;
-      font-weight: 900;
+      font-weight: 500;
+      font-size: 20pt;
       background-color: rgba(251, 235, 181, .76);
   }
 
@@ -204,6 +205,7 @@ export default {
   .card-text {
       margin-bottom: 0;
       color: #333333;
+      font-size: 16pt;
   }
 
   .border-0 {
