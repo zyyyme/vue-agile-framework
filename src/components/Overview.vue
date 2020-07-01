@@ -147,7 +147,7 @@ export default {
   .timeline-item:before {
       content: " ";
       position: absolute;
-      top: 10px;/*двигает треугольники по вертикали*/
+      top: 20px;/*двигает треугольники по вертикали*/
       right: -10px;/*двигает треугольники по горизонтали*/
       border-width: 17.5px;/*уменьшает размер треугольников*/
       border-color: transparent transparent transparent rgba(251, 235, 181, .76);/*transparent transparent transparent rgb*/
@@ -161,7 +161,7 @@ export default {
   .timeline-item:nth-child(even):before {
       content: " ";
       position: absolute;
-      top: 10px;/*двигает треугольники по вертикали*/
+      top: 20px;/*двигает треугольники по вертикали*/
       right: auto;
       left: -10px;/*двигает треугольники по горизонтали*/
       border-width: 17.5px;
