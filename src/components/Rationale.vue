@@ -82,7 +82,7 @@
             <tspan x="180">Represent the needs </tspan>
             <tspan dy="20" x="180">of the target audience</tspan>
         </text>
-        <text font-family="Roboto Slab" style="color: #228E95" font-size="20" y="300">
+        <text font-family="Roboto Slab" style="color: #228E95;" font-size="20" y="300">
             <tspan dy="40" x="130">Minimum waste & Maximum value</tspan>
             <tspan dy="40" x="200">People oriented</tspan>
         </text>
@@ -90,7 +90,7 @@
         <text font-family="Roboto Slab" stroke="#333333" font-size="20" y="300">
             <tspan x="680">Knows how to implement ideas</tspan>
         </text>
-        <text font-family="Roboto Slab" style="color: #228E95" font-size="20" y="300">
+        <text font-family="Roboto Slab" style="color: #228E95;" font-size="20" y="300">
             <tspan dy="40" x="660">Cross-functional & Self-organizing </tspan>
             <tspan dy="40" x="760">On time delivery</tspan>
         </text>
@@ -98,7 +98,7 @@
         <text font-family="Roboto Slab" stroke="#333333" font-size="20" y="780">
             <tspan x="105">Knows how to run the business</tspan>
         </text>
-        <text font-family="Roboto Slab" style="color: #228E95" font-size="20" y="800">
+        <text font-family="Roboto Slab" style="color: #228E95;" font-size="20" y="800">
             <tspan dy="40" x="100">Transparency & Communication</tspan>
         </text>
 

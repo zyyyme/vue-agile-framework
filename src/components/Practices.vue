@@ -20,7 +20,7 @@
         <div class="types right" id="top">Design</div>
         <div class="types left">Plan</div>
         <div class="types right">Communicate</div>
-        <div class="types left">Develope</div>
+        <div class="types left">Develop</div>
         <div class="types right">Improve</div>
         <div class="types left" id="bottom">Analyze</div>
 

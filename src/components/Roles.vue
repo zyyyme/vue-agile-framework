@@ -38,13 +38,13 @@
         L 400.000 600.000
         L 209.788 461.804" fill="#FFEA9E" fill-opacity="71%"></path></a>
 
-        <a href="team_lead.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: bold" transform="rotate(-36)" y="780"><tspan x="40">Team</tspan><tspan x="45" dy="30">Lead</tspan></text></a>
-        <a href="coach.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: bold" transform="rotate(72)" x="455" y="-460">Coach</text></a>
-        <a href="project_manager.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: bold" transform="rotate(0)" y="160"><tspan x="350">Project</tspan><tspan x="340" dy="30">Manager</tspan></text></a>
-        <a href="tester.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: bold" transform="rotate(288)" x="-300" y="300">Tester</text></a>
-        <a href="dev_team.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: bold"   transform="rotate(36)" y="290"><tspan x="465">Development</tspan><tspan x="510" dy="30">Team</tspan></text></a>
+        <a href="team_lead.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: 500" transform="rotate(-36)" y="780"><tspan x="40">Team</tspan><tspan x="45" dy="30">Lead</tspan></text></a>
+        <a href="coach.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: 500" transform="rotate(72)" x="455" y="-460">Coach</text></a>
+        <a href="project_manager.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: 500" transform="rotate(0)" y="160"><tspan x="350">Project</tspan><tspan x="340" dy="30">Manager</tspan></text></a>
+        <a href="tester.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: 500" transform="rotate(288)" x="-300" y="300">Tester</text></a>
+        <a href="dev_team.html"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight: 500"   transform="rotate(36)" y="290"><tspan x="465">Development</tspan><tspan x="510" dy="30">Team</tspan></text></a>
 
-        <text font-family="Roboto Slab" style="font-size: 70px; color: #333333; font-weight: bold" x="320" y="420">Roles</text>
+        <text font-family="Roboto Slab" style="font-size: 70px; color: #333333; font-weight: 500" x="320" y="420">Roles</text>
 
 
     </svg>
