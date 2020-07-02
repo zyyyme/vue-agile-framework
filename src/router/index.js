@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Overview from '@/components/Overview'
+import Values from '@/components/Values'
 import Rationale from '@/components/Rationale'
 import Roles from '@/components/Roles'
 import Stages from '@/components/Stages'
@@ -16,6 +17,11 @@ export default new Router({
       path: '/',
       name: 'Overview',
       component: Overview
+    },
+    {
+      path: '/Values',
+      name: 'Values',
+      component: Values
     },
     {
       path: '/rationale',

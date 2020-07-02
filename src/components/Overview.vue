@@ -1,215 +1,108 @@
 <template>
-  <div id="app">
-    <div class="container">
-      <div class="timeline">
+    <div id='app'>
+        <svg height="1000" width="1000">	
+            <router-link to="/roles"><path d="
+            M366,541
+            A200 200 0 0 1 366,374
+            L 456,421
+            A100 100 0 0 0 456,498
+            Z" fill="#FFDA71" fill-opacity="100%"></path></router-link>
 
-        <div class="timeline-item">
-          <div class="card border-0">
-            <div class="card-header border-0">Courage</div>
-            <div class="card-body">
-              <p class="card-text">
-                plan for today, not for tomorrow
-              </p>
-            </div>
-          </div>
-        </div>
+            <router-link to="/values"><path d="
+            M383,350
+            A200 200 0 0 1 525,268
+            L 532,368
+            A100 100 0 0 0 465,408
+            Z" fill="#228E95" fill-opacity="90%"></path></router-link>
 
-        <div class="timeline-item">
-          <div class="card border-0">
-            <div class="card-header border-0">Openness</div>
-            <div class="card-body">
-              <p class="card-text">
-                problems need to be discussed
-              </p>
-            </div>
-          </div>
-        </div>
+            <router-link to="/rationale"><path d="
+            M560,268
+            A200 200 0 0 1 699,353
+            L 616,408
+            A100 100 0 0 0 549,368
+            Z" fill="#78C0B6" fill-opacity="100%"></path></router-link>
 
-        <div class="timeline-item">
-          <div class="card border-0">
-            <div class="card-header border-0">Commitment</div>
-            <div class="card-body">
-              <p class="card-text">
-                everyone should contribute
-              </p>
-            </div>
-          </div>
-        </div>
+            <router-link to="/stages"><path d="
+            M714,381
+            A200 200 0 0 1 710,544
+            L 621,500
+            A100 100 0 0 0 622,422
+            Z" fill="#7EC8BD" fill-opacity="60%"></path></router-link>
 
-        <div class="timeline-item">
-          <div class="card border-0">
-            <div class="card-header border-0">Focus</div>
-            <div class="card-body">
-              <p class="card-text">
-                working software over documentation
-              </p>
-            </div>
-          </div>
-        </div>
+            <router-link to="/artifacts"><path d="
+            M696,568
+            A200 200 0 0 1 555,651
+            L 546,550
+            A100 100 0 0 0 614,511
+            Z" fill="#FBEBB5" fill-opacity="76%"></path></router-link>
 
-        <div class="timeline-item">
-          <div class="card border-0">
-            <div class="card-header border-0">Respect</div>
-            <div class="card-body">
-              <p class="card-text">
-                everyone is good in his own way
-              </p>
-            </div>
-          </div>
-        </div>
+            <router-link to="/practices"><path d="
+            M520,648
+            A200 200 0 0 1 380,566
+            L464,508
+            A100 100 0 0 0 530,550
+            Z" fill="#FFEA9E" fill-opacity="71%"></path></router-link>
+            <router-link to="/roles"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333"  x="360" y="465">Roles</text></router-link>
+            <router-link to="/values"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333" transform="rotate(-30)" x="185" y="540">Values</text></router-link>
+            <router-link to="/rationale"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333" transform="rotate(30)" x="635" y="-20">Rationale</text></router-link>
+            <router-link to="/stages"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333" x="635" y="465">Stages</text></router-link>
+            <router-link to="/artifacts"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333" transform="rotate(-30)" x="175" y="820">Artifacts</text></router-link>
+            <router-link to="/practices"><text font-family="Roboto Slab" style="font-size: 30px; color: #333333"   transform="rotate(30)" x="630" y="290">Practices</text></router-link>
+            <polyline points="250,465 350,465" fill="none" stroke="black" />
+            <polyline points="435,300 365,230 265,230" fill="none" stroke="black" />
+            <polyline points="650,305 720,235 790,235" fill="none" stroke="black" />
+            <polyline points="730,465 830,465" fill="none" stroke="black" />
+            <polyline points="640,620 710,690 785,690" fill="none" stroke="black" />
+            <polyline points="430,615 360,685 260,685" fill="none" stroke="black" />
 
-        <div class="timeline-item">
-          <div class="card border-0">
-            <div class="card-header border-0">Communication</div>
-            <div class="card-body">
-              <p class="card-text">
-                to share a common understanding
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="card border-0">
-            <div class="card-header border-0">Feedback</div>
-            <div class="card-body">
-              <p class="card-text">
-                 from system, customer and team
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="card border-0">
-            <div class="card-header border-0">Simplicity</div>
-            <div class="card-body">
-              <p class="card-text">
-                start with the simplest solution
-              </p>
-            </div>
-          </div>
-        </div>
-
-      </div>
+            <text font-family="Roboto Slab" style="font-size: 20px; color: #333333" y="200">
+                <tspan x="85">Values are important</tspan>
+                <tspan dy="20" x="85">because the help to</tspan>
+                <tspan dy="20" x="85">develop and create</tspan>
+                <tspan dy="20" x="85">exactly the framework</tspan>
+                <tspan dy="20" x="85">that is the most efficient</tspan></text>
+            <text font-family="Roboto Slab" style="font-size: 20px; color: #333333" y="470">
+                <tspan x="50">Division on roles for</tspan>
+                <tspan dy="20" x="50">teams of different sizes</tspan>
+            </text>
+            <text font-family="Roboto Slab" style="font-size: 20px; color: #333333" y="670">
+                <tspan x="60">Bank of practices aimed</tspan>
+                <tspan dy="20" x="60">to help follow the</tspan>
+                <tspan dy="20" x="60">philosophy and values</tspan>
+            </text>
+            <text font-family="Roboto Slab" style="font-size: 20px; color: #333333" y="200">
+                <tspan x="790">Philosophy of the</tspan>
+                <tspan dy="20" x="790">framework. Helpes to</tspan>
+                <tspan dy="20" x="790">understand the ideas</tspan>
+                <tspan dy="20" x="790">behind that are aimed</tspan>
+                <tspan dy="20" x="790">to improve project</tspan>
+                <tspan dy="20" x="790">managment process</tspan>
+            </text>
+            <text font-family="Roboto Slab" style="font-size: 20px; color: #333333" y="450">
+                <tspan x="830">Stages  of Product</tspan>
+                <tspan dy="20" x="830">Development</tspan>
+                <tspan dy="20" x="830">Process</tspan>
+            </text>
+            <text font-family="Roboto Slab" style="font-size: 20px; color: #333333" y="670">
+                <tspan x="790">Documentation taken</tspan>
+                <tspan dy="20" x="790">during the</tspan>
+                <tspan dy="20" x="790">development process</tspan>
+            </text>
+        </svg>
     </div>
-  </div>
 </template>
 
 <script>
 export default {
-  name: 'Overview',
-  data () {
-    return {
-      msg: 'Overview'
+    name: 'Overview',
+    data () {
+        return {
+            msg: 'Overview'
+        }
     }
-  }
 }
 </script>
 
 <style scoped>
 
-  /*расположение картинки по центру экрана и определенным размером*/
-  .container {
-      width: 60%;
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
-  }
-
-  .timeline {
-      display: flex!important;
-      flex-direction: column!important;
-      position: relative;
-  }
-
-  /* линия по центру */
-  .timeline:before {
-      content: " ";
-      position: absolute;
-      top: 0;
-      left: 50%;
-      bottom: 0;
-      width: 1px;
-      margin: 20px -1.5px;
-      background-color: #fff;
-      border: 1px dashed rgba(34, 142, 149, .9);
-  }
-
-  .timeline-item{
-      position: relative;
-      padding: 10px 25px;
-      width: 50%;
-  }
-
-  /* треугольнички у блоков */
-  .timeline-item:before {
-      content: " ";
-      position: absolute;
-      top: 20px;/*двигает треугольники по вертикали*/
-      right: -10px;/*двигает треугольники по горизонтали*/
-      border-width: 17.5px;/*уменьшает размер треугольников*/
-      border-color: transparent transparent transparent rgba(251, 235, 181, .76);/*transparent transparent transparent rgb*/
-      border-style: solid;
-  }
-
-  .timeline-item:nth-child(even) {
-    align-self: flex-end;
-  }
-
-  .timeline-item:nth-child(even):before {
-      content: " ";
-      position: absolute;
-      top: 20px;/*двигает треугольники по вертикали*/
-      right: auto;
-      left: -10px;/*двигает треугольники по горизонтали*/
-      border-width: 17.5px;
-      border-color: transparent rgba(251, 235, 181, .76) transparent transparent;
-      border-style: solid;
-  }
-
-  /*кружочки по линии*/
-  /* .second-timeline-item:before {
-      content: " ";
-      width: 1em;
-      height: 1em;
-      border-radius: 50%;
-      position: absolute;
-      background-color: rgba(126, 200, 189, .6);
-  } */
-
-  .card {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      min-width: 0;
-      word-wrap: break-word;
-  }
-
-  .card-header {
-      padding: .5rem 1.25rem;
-      margin-bottom: 0;
-      color: #333333;
-      font-weight: 500;
-      font-size: 20pt;
-      background-color: rgba(251, 235, 181, .76);
-  }
-
-  .card-body {
-      flex: 1 1 auto;
-      min-height: 1px;
-      padding: .25rem;
-  }
-
-  .card-text {
-      margin-bottom: 0;
-      color: #333333;
-      font-size: 16pt;
-      font-weight: 300;
-  }
-
-  .border-0 {
-    border: 0!important;
-  }
 </style>

@@ -13,6 +13,9 @@
                 <router-link to="/" class="nav-link">Overview</router-link>
             </b-nav-item>
             <b-nav-item>
+                <router-link to="/values" class="nav-link">Values</router-link>
+            </b-nav-item>
+            <b-nav-item>
                 <router-link to="/rationale" class="nav-link">Rationale</router-link>
             </b-nav-item>
             <b-nav-item>
@@ -31,8 +34,9 @@
         </b-collapse>
       </b-navbar>
     </div>
-
-    <router-view :key="$route.fullPath" style="margin-top:40px"></router-view>
+    <transition name="fade" mode="out-in">
+      <router-view :key="$route.fullPath" style="margin-top:40px"></router-view>
+    </transition>
   </div>
 </template>
 
@@ -61,5 +65,17 @@ h1{
   text-align: center;
   color: #2c3e50;
   
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.2s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
 }
 </style>
