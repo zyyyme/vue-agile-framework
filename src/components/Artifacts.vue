@@ -44,7 +44,7 @@
       </div>
       <div class='row text-left'>
           <div class='col-12 col-lg-6 artifact border-left '>
-              <h5 class='number col-4'>8</h5><h5 class="col-10">Business Case </h5>
+              <h5 class='number col-4'>8</h5><h5 class="col-10">Lessons Learned Register </h5>
           </div>
       </div>
 
