@@ -6,10 +6,14 @@
             <div class="text-block">
                 <h3 class=" number left-number duble-down">1</h3>
                 <h3 class="stage left-stage"><b-button variant="link" v-b-modal="'feasibility-modal'">Estimate feasibility</b-button></h3>            
+                <h5 class='left-paragraph'> understand the scope of work </h5>
+                <h5 class='left-paragraph'> estimate needed and available resources </h5> 
             </div>
             <div class="text-block">
                 <h3 class=" number left-number duble-down">2</h3>
                 <h3 class="stage left-stage"><b-button variant="link" v-b-modal="'foundations-modal'">Estimate foundations</b-button></h3>            
+                <h5 class='left-paragraph'> work out the potential solution </h5>
+                <h5 class='left-paragraph'> determine the development team </h5>
             </div>
             <h2 class="header" id="pre-project">Pre-Project</h2>
         </div><!--
@@ -20,40 +24,42 @@
                 
                     <h3 class="stage left-stage"><b-button variant="link" v-b-modal="'planning-stage-modal'">Planning </b-button></h3>
                 
-                <h5 class="left-paragraph"> choosing practices</h5>
-                <h5 class="left-paragraph"> listening</h5>
-                <h5 class="left-paragraph"> designing</h5>
+                <h5 class="left-paragraph"> gather requirements</h5>
+                <h5 class="left-paragraph"> plan & design</h5>
+                <h5 class="left-paragraph"> choose practices</h5>
             </div>
             <div class="text-block">
                 <h3 class="number right-number triple-down">4</h3>
                 <h3 class="stage right-stage center">
                     <b-button variant="link" v-b-modal="'development-modal'">Development</b-button>
                 </h3>
-                <h5 class="right-paragraph"> coding</h5>
-                <h5 class="right-paragraph"> testing</h5>
+                <h5 class="right-paragraph"> code & test</h5>
             </div>
             <div class="text-block">
                 <h3 class="number left-number triple-down">5</h3>
                 <h3 class="stage left-stage center">
                     <b-button variant="link" v-b-modal="'iter-analysis-modal'">Iteration Analysis</b-button>
                 </h3>
-                <h5 class="left-paragraph"> review</h5>
-                <h5 class="left-paragraph"> retrospective</h5>
+                <h5 class="left-paragraph"> review results</h5>
             </div>
             <h2 class="header" id="project">Project</h2>
         </div><!--
 
         --><div class="column third-col">
             <div class="text-block">
-                <h3 class="number right-number duble-down">6</h3>
+                <h3 class="number right-number duble-down">8</h3>
                 <h3 class="stage right-stage">
-                    <b-button variant="link" v-b-modal="'finalization-modal'">Finalization & Summary</b-button>   
+                    <b-button variant="link" v-b-modal="'finalization-modal'">Finalization</b-button>   
                 </h3>
+                <h5 class='right-paragraph'> assess project performance </h5>
+                <h5 class='right-paragraph'> examine the business value achieved </h5>
             </div>
             <div class="text-block">
-                <h3 class="number right-number duble-down">7</h3><h3 class="stage right-stage">
+                <h3 class="number right-number duble-down">9</h3><h3 class="stage right-stage">
                     <b-button variant="link" v-b-modal="'maintenance-modal'">Maintenance</b-button>
                 </h3>
+                <h5 class='right-paragraph'> track and support the working system </h5>
+                <h5 class='right-paragraph'> introduce enhancements </h5>
             </div>
             <h2 class="header" id="post-project">Post-Project</h2>
         </div>
@@ -184,7 +190,7 @@
                 and train execution of different practices used in the Framework.</h5></li>
         </ul>
     </b-modal>
-    <b-modal size='xl' id='finalization-modal' title='Finalization & Summary' ok-only>
+    <b-modal size='xl' id='finalization-modal' title='Finalization' ok-only>
         <h3>Purpose: </h3> 
         <h5 class='modal-text'> check how well the expected business benefits have been met </h5>
         <h3>Continuity: </h3> <h5> 1 - 4 weeks </h5>
@@ -335,38 +341,5 @@ export default {
     padding-left: 24px;
 }
 
-.text-overview {
-    margin-bottom: 64px;
-}
 
-.text-overview>h5{
-    font-weight: 300;
-}
-
-.modal-title{
-    font-weight: 500;
-    font-size: 24pt !important;
-}
-.modal-body>h5{
-    font-weight: 300;
-}
-.modal-body>h3{
-    font-size:20pt !important;
-    margin: 16px 0;
-}
-li>h5{
-    font-weight: 300;
-    line-height: 28px;
-}
-
-li {
-    margin: 16px 0;
-}
-
-.btn-link{
-    color: #333 !important;
-    font-size: 20pt !important;
-    display: inline!important;
-    padding: 0 !important;
-}
 </style>

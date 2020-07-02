@@ -1,6 +1,6 @@
 <template>
     <div id='app'>
-        <svg height="1000" width="1000">	
+        <svg height="1000" width="1100">	
             <router-link to="/roles"><path d="
             M366,541
             A200 200 0 0 1 366,374

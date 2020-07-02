@@ -1,15 +1,15 @@
 <template>
   <div id='app'> 
     <div class="box" id="left-box">
-        <div class="examples" id="plan">Planning game
-            <br>Daily Stand-Ups
-            <br>User Stories</div>
-        <div class="examples" id="develope">Iterative Development
-            <br>Timeboxing
-            <br>Testing
-            <br>Continuous integration</div>
-        <div class="examples" id="analyze">Daily burnt down chart
-            <br>System metaphor</div>
+        <div class="examples" id="plan"><b-button variant='link'>Planning game </b-button>
+            <br><b-button variant='link'>Daily Stand-Ups</b-button>
+            <br><b-button variant='link'>User Stories</b-button></div>
+        <div class="examples" id="develope"><b-button variant='link'>Iterative Development</b-button>
+            <br><b-button variant='link'>Timeboxing</b-button>
+            <br><b-button variant='link'>Testing</b-button>
+            <br><b-button variant='link'>Continuous integration</b-button></div>
+        <div class="examples" id="analyze"><b-button variant='link'>Daily burnt down chart</b-button>
+            <br><b-button variant='link'>System metaphor</b-button></div>
 
     </div><div class="box" id="left-dop-box">
         <div class="dop-examples" id="d1"></div>
@@ -33,19 +33,33 @@
     </div>
     
     <div class="box" id="right-box">
-        <div class="examples" id="design">Modelling
-            <br>How Might We
-            <br>Five Whys (Inspiration)
-            <br>Download Your Learnings(Ideation)
-            <br>Group Interview (Inspiration)</div>
-        <div class="examples" id="communicate">Daily communication
-            <br>Last responsible moment
-            <br>Workshops</div>
-        <div class="examples" id="improve">Methodology shaping
-            <br>Pair programming
-            <br>Sustainable pace
-            <br>Refactoring</div>
+        <div class="examples" id="design"><b-button variant='link'>Modelling</b-button>
+            <br><b-button variant='link'>How Might We</b-button>
+            <br><b-button variant='link'>Five Whys (Inspiration)</b-button>
+            <br><b-button variant='link'>Download Your Learnings(Ideation)</b-button>
+            <br><b-button variant='link'>Group Interview (Inspiration)</b-button></div>
+        <div class="examples" id="communicate"><b-button variant='link'>Daily communication</b-button>
+            <br><b-button variant='link'>Last responsible moment</b-button>
+            <br><b-button variant='link'>Workshops</b-button></div>
+        <div class="examples" id="improve"><b-button variant='link'>Methodology shaping</b-button>
+            <br><b-button variant='link'>Pair programming</b-button>
+            <br><b-button variant='link'>Sustainable pace</b-button>
+            <br><b-button variant='link'>Refactoring</b-button></div>
     </div>
+
+    <b-modal size='xl' id='user-stories-modal' title='User Stories' ok-only>
+        <h3>Stage: </h3> 
+        <h5 class='modal-text'> establish feasibility of the project from a technical perspective
+             and its cost-effectiveness from a business perspective </h5>
+        <h3>Continuity: </h3> <h5> 1 - 5 days </h5>
+        <h3>Key Notes: </h3>
+        <ul>
+            <li><h5>The effort associated with Feasibility should be just enough to decide whether
+             further investigation is justified, or whether the project should be stopped now,
+              since it is unlikely to be viable. </h5></li>
+        </ul>
+
+    </b-modal>
   </div>
 </template>
 
@@ -144,5 +158,9 @@ body{
     margin-bottom: 160px;
 }
 
+.btn-link {
+    font-weight: 300;
+    font-size: 20px !important;
+}
 
 </style>

@@ -78,4 +78,40 @@ h1{
 .fade-leave-active {
   opacity: 0
 }
+
+.text-overview {
+    margin-bottom: 64px;
+}
+
+.text-overview>h5{
+    font-weight: 300;
+}
+
+.modal-title{
+    font-weight: 500;
+    font-size: 24pt !important;
+}
+.modal-body>h5{
+    font-weight: 300;
+}
+.modal-body>h3{
+    font-size:20pt !important;
+    margin: 16px 0;
+}
+.modal-body>ul>li>h5{
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.modal-body>ul>li {
+    margin: 16px 0;
+}
+
+.btn-link{
+    color: #333 !important;
+    font-size: 20pt !important;
+    display: inline!important;
+    padding: 0 !important;
+    text-align: initial;
+}
 </style>
