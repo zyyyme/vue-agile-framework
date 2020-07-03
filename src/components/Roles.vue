@@ -54,6 +54,19 @@
   <b-modal size='xl' ref='team-lead-modal' id='team-lead-modal' title='Team Lead' ok-only>
         <h3>Description: </h3> 
         <h5>A proactive member of the Development Team who has more knowledge about technical moments. </h5>
+        <h3>Reasoning: </h3> 
+        <h5> Most experienced member of the team, who can help others.</h5>
+        <h3>Desired Qualities:</h3>
+        <ul>
+            <li><h5>Proactivity.</h5></li>
+            <li><h5>A lot of programming experience.</h5></li>
+            <li><h5>Helpful attitude.</h5></li>
+            <li><h5>Trustworthy in the technical field.</h5></li>    
+            <li><h5>Accountable and responsible.</h5></li>  
+            <li><h5>Fair and impartial.</h5></li> 
+            <li><h5>Enthusiastic.</h5></li> 
+         
+        </ul>
         <h3>Responsibilities:</h3>
         <ul>
             <li><h5>Schedule and conduct Daily Stand-Ups and iteration planning meetings.</h5></li>
@@ -72,6 +85,15 @@
         <h3>Description: </h3> 
         <h5>A cross-functional, self-organizing collection of individuals working together 
           to develop and deliver the requested and committed product increments.</h5>
+        <h3>Reasoning: </h3> 
+        <h5> Development Team implement project. Product manager, coach help the Development 
+          Team with organizational aspects and product management.</h5>
+        <h3>Desired Qualities:</h3>
+        <ul>
+            <li><h5>Flexible.</h5></li>
+            <li><h5>Productive.</h5></li>
+            <li><h5>Sociable.</h5></li>     
+        </ul>
         <h3>Responsibilities:</h3>
         <h5>1. Build the product that the Project Manager indicates: </h5>
         <ul>
@@ -86,6 +108,11 @@
         <h3>Description: </h3> 
         <h5>A team member performing product testing and responsible for the quality of 
           the final product.</h5>
+        <h3>Desired Qualities:</h3>
+        <ul>
+            <li><h5>Same as development team.</h5></li>
+            <li><h5>Desire to sort out every aspect of product to reveal critical bugs and errors.</h5></li>  
+        </ul>
         <h3>Responsibilities:</h3>
         <ul>
             <li><h5>Write and conduct various types of testing configured to examine how 
