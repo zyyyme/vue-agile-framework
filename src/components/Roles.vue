@@ -112,6 +112,8 @@
         <ul>
             <li><h5>Same as development team.</h5></li>
             <li><h5>Desire to sort out every aspect of product to reveal critical bugs and errors.</h5></li>  
+            <li><h5>Broad knowledge of QA(Quality Assurance) and QC(Quality Control) in the industry and organization.</h5></li>
+            <li><h5>Strong communication skills to collaborate with developers and Project Manager.</h5></li> 
         </ul>
         <h3>Responsibilities:</h3>
         <ul>
@@ -160,8 +162,11 @@
         <h3>Description: </h3> 
         <h5>A sole person accountable for product, budget, interactions with clients.</h5>
         <h3>Reasoning: </h3> 
-        <h5> PM fulfills the role of proxy between stakeholders and everyone who is working 
-          on a project. He is responsible for the project.</h5>
+        <ul>
+            <li><h5>The Project Manager fulfills a role of “proxy” between 
+              stakeholders and everyone who is working on a project..</h5></li>
+            <li><h5>The Project Manager is responsible for the whole project.</h5></li>
+        </ul>
         <h3>Desired Qualities:</h3>
         <ul>
             <li><h5>Ability to gather and combine opinions from stakeholders.</h5></li>
