@@ -1,14 +1,21 @@
 <template>
   <div id='app'> 
+    <div class='container col-10 col-lg-8 mt-5'>
+
+     <!-- intro -->
+     <div class="text-overview d-flex flex-column align-items-center mt-4">
+         <h5 class='col-12'>Practices included in minimal set are marked in <span class='included'>green</span></h5>
+    </div>
+    </div>
     <div class="box" id="left-box">
-        <div class="examples" id="plan"><b-button variant='link' v-b-modal="'planning-game-modal'">Planning game </b-button>
+        <div class="examples" id="plan"><b-button variant='link' v-b-modal="'planning-game-modal'" class='included'>Planning game </b-button>
             <br><b-button variant='link' v-b-modal="'planning-poker-modal'">Prioritization (Planning Poker)</b-button>
-            <br><b-button variant='link' v-b-modal="'stand-up-modal'">Daily Stand-Ups</b-button>
-            <br><b-button variant='link' v-b-modal="'user-stories-modal'">User Stories</b-button></div>
+            <br><b-button variant='link' v-b-modal="'stand-up-modal'" class='included'>Daily Stand-Ups</b-button>
+            <br><b-button variant='link' v-b-modal="'user-stories-modal'" class='included'>User Stories</b-button></div>
         <div class="examples" id="develope"><b-button variant='link' v-b-modal="'refactoring-modal'">Refactoring</b-button>
-            <br><b-button variant='link' v-b-modal="'testing-modal'">Testing</b-button>
+            <br><b-button variant='link' v-b-modal="'testing-modal'"  class='included'>Testing</b-button>
             <br><b-button variant='link' v-b-modal="'ci-modal'">Continuous Integration</b-button></div>
-        <div class="examples" id="analyze"><b-button variant='link' v-b-modal="'iteration-burndown-modal'">Iteration Burndown Chart</b-button>
+        <div class="examples" id="analyze"><b-button variant='link' v-b-modal="'iteration-burndown-modal'"  class='included'>Iteration Burndown Chart</b-button>
             <br><b-button variant='link' v-b-modal="'system-metaphor-modal'">System metaphor</b-button></div>
 
     </div><div class="box" id="left-dop-box">
@@ -39,11 +46,12 @@
             <br><b-button variant='link' v-b-modal="'download-learnings-modal'">Download Your Learnings(Ideation)</b-button></div>
         <div class="examples" id="communicate"><b-button variant='link' v-b-modal="'daily-communication-modal'">Daily communication</b-button>
             <br><b-button variant='link' v-b-modal="'lrp-modal'">Last responsible moment</b-button>
-            <br><b-button variant='link' v-b-modal="'workshops-modal'">Workshops</b-button></div>
-        <div class="examples" id="improve"><b-button variant='link' v-b-modal="'methodology-shaping-modal'">Methodology Shaping</b-button>
+            <br><b-button variant='link' v-b-modal="'workshops-modal'" class='included'>Workshops</b-button></div>
+        <div class="examples" id="improve"><b-button variant='link' v-b-modal="'methodology-shaping-modal'" class='included'>Methodology Shaping</b-button>
             <br><b-button variant='link' v-b-modal="'pair-programming-modal'">Pair Programming</b-button>
             <br><b-button variant='link' v-b-modal="'sustainable-pace-modal'">Sustainable Pace</b-button>
-            <br><b-button variant='link' v-b-modal="'refactoring-modal'">Refactoring</b-button></div>
+            <br><b-button variant='link' v-b-modal="'refactoring-modal'" class='included'>Refactoring</b-button>
+            <br><b-button variant='link' v-b-modal="'iter-dev-modal'" class='included'>Iterative Development + Timeboxing</b-button></div>
     </div>
 
     <b-modal size='xl' id='user-stories-modal' title='User Stories' ok-only>
@@ -911,6 +919,10 @@ body{
 .quote{
     text-align: center;
     font-style: italic;
+}
+
+.included {
+    color : #22952a !important;
 }
 
 </style>
