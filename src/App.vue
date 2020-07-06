@@ -91,6 +91,10 @@ h1{
     font-weight: 500;
     font-size: 24pt !important;
 }
+
+.modal-body{
+  line-height: 30px;
+}
 .modal-body>h5{
     font-weight: 300;
 }
@@ -98,13 +102,17 @@ h1{
     font-size:20pt !important;
     margin: 16px 0;
 }
-.modal-body>ul>li>h5{
+.modal-body>ul>li>h5, .modal-body>ol>li>h3{
     font-weight: 300;
     line-height: 28px;
 }
 
-.modal-body>ul>li {
+.modal-body>ul>li, .modal-body>ol>li {
     margin: 16px 0;
+}
+
+.modal-body>ol>li>h5, .modal-body>ol>li>h3{
+  font-weight: 300;
 }
 
 .btn-link{

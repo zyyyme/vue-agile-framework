@@ -263,9 +263,6 @@ h1 {
     font-size: 24pt;
 }
 
-h5 {
-    font-size: 20pt;
-}
 
 .development {
     background-color: #B2DED7;
