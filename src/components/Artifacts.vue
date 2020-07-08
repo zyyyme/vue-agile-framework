@@ -191,21 +191,21 @@
     </b-modal>
     <b-modal size='xl' id='team-modal' title='Team Agreement' ok-only>
         <h3>What is it? </h3>
-        <h5> Guideline developed by the team about how they must work together to create a positive productive process. </h5>
+        <h5> List of key terms and conditions that should be same for everyone. </h5>
         <h3>For what? </h3>
         <ul>
             <li><h5>Minimize the potential for conflict</h5></li>
             <li><h5>Form a common vision</h5></li>
             <li><h5>Make sure everyone knows the "rules of the game"</h5></li>
             <li><h5>Develop a sense of shared responsibility</h5></li>
-            <li><h5>Increase member’s awareness of their own behavior</h5></li>
         </ul>
         <h3>How to create? </h3>
-        <h5>The team should make a list of rules about doing business together, attitude to the tasks, measures of
-            completion and conflicts’ resolution, and make sure that everyone is satisfied  with them.
-            It remains only to follow them throughout the work.</h5>
+        <h5>The team should make a list of defined practices, time of all meetings and
+            activities that are necessary to get a product increment to a done state (Definition of done)
+            and make sure that everyone is satisfied  with them. It remains only to follow them throughout the work.</h5>
             <h3>Which stage?</h3>
-            <h5> Estimate Foundations Stage.</h5>
+            <h5>This list is formed at the Pre-Project Phase: Estimate Foundations Stage, and then revised at
+              every Planning Stage of the Project Phase. </h5>
     </b-modal>
     <b-modal size='xl' id='unit-tests-modal' title='Unit Tests' ok-only>
         <h3> What is it? </h3>

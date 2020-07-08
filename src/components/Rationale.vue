@@ -319,9 +319,9 @@
         <h3>Key benefits:</h3>
         <ol>
             <li><h5>Reduced risk.</h5></li>
-            <li><h5> Errors are detected quickly and located more easily. As each 
-                change introduced is typically small, pinpointing the specific 
-                change that introduced a defect can be done quickly.</h5></li>
+            <li><h5> Errors are detected quickly and located more easily. As each change 
+                introduced is typically small, pinpointing the specific change that introduced 
+                a defect can be done quickly</h5></li>
             <li><h5>Breaks down the barriers between customers and development via 
                 frequent deployment, which also allows your users to get new features 
                 more rapidly, to give more rapid feedback on those features.</h5></li>

@@ -196,7 +196,16 @@
         <h3>Continuity: </h3> <h5> 1 - 4 weeks </h5>
         <h3>Key Notes: </h3>
         <ul>
-            <li><h5>Although it may be possible to highlight immediate benefits, most 
+            <li><h5>This stage is dedicated to a final review of the developed product conducted 
+                by the team (Team Leader, Development Team, Tester) and the Project Manager. 
+                In case of approval from the Project Manager, the product is officially 
+                presented to customers (stakeholders). Then the official endorsement from 
+                stakeholders must be received in order to market the product and close the 
+                project. In case of some disagreements, there is still some time to fix 
+                inconsistencies and mistakes.</h5></li> 
+            <li><h5>Moreover, estimation of “business” benefits is conducted by the Project Manager 
+                and customers (stakeholders) to assess the value of the product. Although it may be 
+                possible to highlight immediate benefits, most 
                 benefits will accrue over a predefined period of live use of the solution. 
                 Benefits may be assessed for individual releases (in which case the 
                 assessment of benefit should start before the Post-Project Phase is reached), 
@@ -209,7 +218,8 @@
         <h5 class='modal-text'> maintain the appropriate functionality of the product </h5>
         <h3>Key Notes: </h3>
         <ul>
-            <li><h5>Now, the product is formally and officially approved by the Project Manager. 
+            <li><h5>Now, the product is formally and officially approved by the Project Manager 
+                and customers (stakeholders). 
                 Moreover, as time goes by, a need for enhancements and improvements may arise. 
                 So, thorough observation of the product’s functioning is essential and crucial 
                 as well as the development process. </h5></li>
