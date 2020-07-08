@@ -103,24 +103,7 @@
         <text font-family="Roboto Slab" style="color: #228E95;" font-size="20" y="800">
             <a @click="$bvModal.show('tnc-modal')"><tspan dy="40" x="100">Transparency & Communication</tspan></a>
         </text>
-
-        <path d="
-        M150,30
-        h800
-        a20 20 0 0 1 20 20
-        v70
-        a20 20 0 0 1 -20 20
-        h-800
-        a20 20 0 0 1 -20 -20
-        v-70
-        a20 20 0 0 1 20 -20
-        Z
-    " fill="none" stroke="#333333" stroke-width="3px"></path>
-        <text font-family="Roboto Slab" stroke="#333333" font-size="24" y="60">
-            <tspan x="140">Make high-quality product that corresponds to the business needs while</tspan>
-            <tspan dy="24" x="140">keeping the work most efficient and comfortable for the development</tspan>
-            <tspan dy="24" x="140">team via means of effective communication with constant feedback.</tspan>
-        </text>
+        
     </svg>
     <b-modal size='xl' ref='min-waste-modal' id='min-waste-modal' title='Minimum Waste & Maximum Value' ok-only>
         <h5>Identify every step that does not create value and then find 
@@ -345,6 +328,8 @@ export default {
 <style scoped>
     svg {
         font-weight: 300;
+        position: relative;
+        top: -200px;
     }
 
     a{

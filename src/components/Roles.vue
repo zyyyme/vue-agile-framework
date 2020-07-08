@@ -107,7 +107,7 @@
         </ul>
         <h3>Responsibilities:</h3>
         <ol>
-        <li><h5>Build the product that the Project Manager indicates: </h5></li>
+        <li><h5>Build the product that the Project Manager supervise: </h5></li>
         <ul>
             <li><h5>Estimate user stories and define tasks from them.</h5></li>
             <li><h5>Write code.</h5></li>
@@ -118,8 +118,10 @@
     </b-modal>
     <b-modal size='xl' ref='tester-modal' id='tester-modal' title='Tester' ok-only>
         <h3>Description: </h3> 
-        <h5>A team member performing product testing and responsible for the quality of 
+        <h5>A team member designing and performing product testing and responsible for the quality of 
           the final product.</h5>
+        <h3>Reasoning: </h3> 
+        <h5> Tester in responsible for lack of errors and bugs, minimum of vulnerabilities.</h5>
         <h3>Desired Qualities:</h3>
         <ul>
             <li><h5>Same as development team.</h5></li>
@@ -195,9 +197,9 @@
             <li><h5>Planning and prioritizing the Product Backlog.</h5></li>
             <li><h5>Defining and accommodating Team Agreement (Definition of Done, Acceptance Criterias) 
               with Development team and validating completed User Stories.</h5></li>
-            <li><h5>Clearly expressing Product Backlog and Iteration Backlog items, so 
+            <li><h5>Clearly expressing Product Backlog items, so 
               that everyone from the Development Team understands them.</h5></li>
-            <li><h5>Ordering the items in the Product Backlog and Iteration Backlog, optimizing 
+            <li><h5>Ordering the items in the Product Backlog, optimizing 
               the work process to achieve goals in a more efficient way.</h5></li>
             <li><h5>Ensuring that the Product Backlog is visible, transparent, clear to all, 
               and shows the progress of the Development Team.</h5></li>
