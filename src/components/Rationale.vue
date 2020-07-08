@@ -7,6 +7,7 @@
                 <polygon points="0 0, 10 3.5, 0 7" />
             </marker>
         </defs>
+        <text font-family="Roboto Slab" stroke="#333333" font-size="30" x="490" y="580">Success</text>
         <path d="M528.5,706 a200 100 30 0 1 -100 100" stroke="black" fill="transparent" marker-end="url(#arrowhead)"></path>
         <path d="M440,502.5 a200 100 -30 0 1 -100 -100" stroke="black" fill="transparent" marker-end="url(#arrowhead)"></path>
         <path d="M658.5 526.5 a200 100 30 0 0 100 -100" stroke="black" fill="transparent" marker-end="url(#arrowhead)"></path>
@@ -39,9 +40,9 @@
         A 100 100 0 0 0 553,662
         A 800 800 0 0 0 718,706
         " fill="#FBEBB5" fill-opacity="76%" stroke="#333333" stroke-width="1px"></path>
-        <text font-family="Roboto Slab" style="font-size: 30px; color: #333333"  x="475" y="465">Product</text>
-        <text font-family="Roboto Slab" style="font-size: 30px; color: #333333"  x="590" y="650">Dev team</text>
-        <text font-family="Roboto Slab" style="font-size: 30px; color: #333333" x="380" y="660">Customer</text>
+        <text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight:500;"  x="475" y="465">Product</text>
+        <text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight:500;"  x="590" y="650">Dev team</text>
+        <text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight:500;" x="380" y="660">Customer</text>
         <path d="
         M145,250
         h310

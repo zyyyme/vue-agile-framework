@@ -115,6 +115,10 @@ h1{
   font-weight: 300;
 }
 
+ul>li>h5 {
+  font-weight: 300;
+}
+
 .btn-link{
     color: #333 !important;
     font-size: 20pt !important;
