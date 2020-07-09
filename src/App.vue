@@ -126,4 +126,8 @@ ul>li>h5 {
     padding: 0 !important;
     text-align: initial;
 }
+
+nav{
+  z-index: 1000;
+}
 </style>

@@ -9,14 +9,22 @@
     </div>
     <div class="box" id="left-box">
         <div class="examples" id="plan"><b-button variant='link' v-b-modal="'planning-game-modal'" class='included'>Planning game </b-button>
-            <br><b-button variant='link' v-b-modal="'planning-poker-modal'">Prioritization (Planning Poker)</b-button>
+            <br><b-button variant='link' v-b-modal="'planning-poker-modal'">Estimation (Planning Poker)</b-button>
             <br><b-button variant='link' v-b-modal="'stand-up-modal'" class='included'>Daily Stand-Ups</b-button>
+            <br><b-button variant='link' v-b-modal="'iter-dev-modal'">Iterative and Incremental Development</b-button>
+            <br><b-button variant='link' v-b-modal="'staging-modal'">Staging</b-button>
             <br><b-button variant='link' v-b-modal="'user-stories-modal'" class='included'>User Stories</b-button></div>
-        <div class="examples" id="develope"><b-button variant='link' v-b-modal="'refactoring-modal'">Refactoring</b-button>
-            <br><b-button variant='link' v-b-modal="'testing-modal'"  class='included'>Testing</b-button>
-            <br><b-button variant='link' v-b-modal="'ci-modal'">Continuous Integration</b-button></div>
-        <div class="examples" id="analyze"><b-button variant='link' v-b-modal="'iteration-burndown-modal'"  class='included'>Iteration Burndown Chart</b-button>
-            <br><b-button variant='link' v-b-modal="'system-metaphor-modal'">System metaphor</b-button></div>
+        
+        <div class="examples" id="develop">
+            <b-button variant='link' v-b-modal="'testing-modal'"  class='included'>Testing</b-button>
+            <br><b-button variant='link' v-b-modal="'refactoring-modal'">Refactoring</b-button>
+            <br><b-button variant='link' v-b-modal="'ci-modal'">Continuous Integration</b-button>
+            </div>
+        
+        <div class="examples" id="analyze">
+            <b-button variant='link' v-b-modal="'daily-burndown-modal'">Daily Burndown Chart</b-button>
+            <br><b-button variant='link' v-b-modal="'iter-retrospective-modal'">Iteration Retrospective</b-button>
+            <br></div>
 
     </div><div class="box" id="left-dop-box">
         <div class="dop-examples" id="d1"></div>
@@ -40,18 +48,22 @@
     </div>
     
     <div class="box" id="right-box">
-        <div class="examples" id="design"><b-button variant='link' v-b-modal="'modelling-modal'">Modelling</b-button>
+        <div class="examples" id="design">
+            <b-button variant='link' v-b-modal="'modelling-modal'" class='included'>Modelling</b-button>
             <br><b-button variant='link' v-b-modal="'how-might-we-modal'">How Might We</b-button>
             <br><b-button variant='link' v-b-modal="'five-whys-modal'">Five Whys (Inspiration)</b-button>
             <br><b-button variant='link' v-b-modal="'download-learnings-modal'">Download Your Learnings(Ideation)</b-button></div>
-        <div class="examples" id="communicate"><b-button variant='link' v-b-modal="'daily-communication-modal'">Daily communication</b-button>
-            <br><b-button variant='link' v-b-modal="'lrp-modal'">Last responsible moment</b-button>
-            <br><b-button variant='link' v-b-modal="'workshops-modal'" class='included'>Workshops</b-button></div>
-        <div class="examples" id="improve"><b-button variant='link' v-b-modal="'methodology-shaping-modal'" class='included'>Methodology Shaping</b-button>
+        <div class="examples" id="communicate">
+            <b-button variant='link' v-b-modal="'daily-communication-modal'">Daily communication</b-button>
+            <br><b-button variant='link' v-b-modal="'lrp-modal'" class='included'>Last responsible moment</b-button>
+            <br><b-button variant='link' v-b-modal="'workshops-modal'" class='included'>Workshops</b-button>
+            <br><b-button variant='link' v-b-modal="'system-metaphor-modal'">System metaphor</b-button></div>
+        <div class="examples" id="improve">
+            <b-button variant='link' v-b-modal="'methodology-shaping-modal'" class='included'>Methodology Shaping</b-button>
             <br><b-button variant='link' v-b-modal="'pair-programming-modal'">Pair Programming</b-button>
-            <br><b-button variant='link' v-b-modal="'sustainable-pace-modal'">Sustainable Pace</b-button>
-            <br><b-button variant='link' v-b-modal="'refactoring-modal'" class='included'>Refactoring</b-button>
-            <br><b-button variant='link' v-b-modal="'iter-dev-modal'" class='included'>Iterative Development + Timeboxing</b-button></div>
+            <br><b-button variant='link' v-b-modal="'sustainable-pace-modal'" class='included'>Sustainable Pace</b-button>
+             <br><b-button variant='link' v-b-modal="'simple-design-modal'">Simple Design</b-button>
+            </div>
     </div>
 
     <b-modal size='xl' id='user-stories-modal' title='User Stories' ok-only>
@@ -102,27 +114,27 @@
         <h5> 50 - amazing thing, should be done right now! </h5>
         <h3>Steps: </h3>
         <ol>
-            <li><h3> Creation or selection of the story </h3>
+            <li><h5> Creation or selection of the story </h5>
                 <h5>Firstly, the Project Manager must create a certain user story or 
                     select it from their list. Such stories will be analyzed and 
                     prioritized during the Planning Game. They will formulate the 
                     basis of the future project’s plan. </h5></li>
-            <li><h3> Story estimation </h3>
+            <li><h5> Story estimation </h5>
                 <h5>This step of the Planning Game is conducted by the team of developers. 
                     They must estimate the story in accordance with the criteria of time 
                     and costs required for its realization. Stories might be estimated 
                     using Planning Poker practice. </h5></li>
-            <li><h3> Prioritization of stories </h3>
+            <li><h5> Prioritization of stories </h5>
                 <h5>This is the beginning of the project’s plan. The Project Manager 
                     places the estimated user story into the plan. </h5></li>
-            <li><h3> The process is repeated </h3>
+            <li><h5> The process is repeated </h5>
                 <h5>After one story is estimated and prioritized in the project’s plan 
                     the process is repeated until the plan is completed. </h5>   
             </li>
         </ol>
 
     </b-modal>
-    <b-modal size='xl' id='planning-poker-modal' title='Planning Poker' ok-only>
+    <b-modal size='xl' id='planning-poker-modal' title='Estimation (Planning Poker)' ok-only>
         <h3>Stage: </h3> 
         <h5 class='modal-text'> Project - Planning. </h5>
         <h3>Purpose: </h3> 
@@ -633,7 +645,7 @@
             </li>
         </ul>
     </b-modal>
-    <b-modal size='xl' id='iteration-burndown-modal' title='Iteration Burndown Chart' ok-only>
+    <b-modal size='xl' id='daily-burndown-modal' title='Daily Burndown Chart' ok-only>
         <h3>Stage: </h3> 
         <h5 class='modal-text'>Project - Development, Iteration Analysis. </h5>
         <h3>Purpose: </h3> 
@@ -669,29 +681,29 @@
         </ul>
         <h3>Steps: </h3>
         <ol>
-            <li><h3>Create Estimate Effort </h3>
+            <li><h5>Create Estimate Effort </h5>
                 <h5>Suppose your ideal baseline for using the available hours over the 
                     sprint.  So in the simplest for this is the available hours divided 
                     by the number of days.</h5>
             </li>
-            <li><h3>Track Daily Process </h3>
+            <li><h5>Track Daily Process </h5>
                 <h5>The daily progress is then captured in the table against each task. 
                     It is important to remember that the value captured for each day 
                     is the estimated effort to complete the task, not the actual effort.</h5>
             </li>
-            <li><h3>Compute the Actual Effort </h3>
+            <li><h5>Compute the Actual Effort </h5>
                 <h5>The total remaining effort needs to be captured at the end of each 
                     day.  This is the total (sum) of all of the estimated time 
                     remaining at the end of each day.</h5>
             </li>
-            <li><h3>Obtain the Final Dataset </h3>
+            <li><h5>Obtain the Final Dataset </h5>
                 <h5>When the data is available, the project burn-down chart can be 
                     created. This is relatively simple using the line chart option 
                     available within Excel. Highlight the summary table that contains 
                     the daily total for baseline effort and estimated effort. 
                     You should also capture the heading of the time period (Day 0, Day 1, etc).</h5>
             </li>
-            <li><h3>Plot the Burndown Chart </h3></li>
+            <li><h5>Plot the Burndown Chart </h5></li>
         </ol>
     </b-modal>
     <b-modal size='xl' id='iter-retrospective-modal' title='Iteration Retrospective' ok-only>

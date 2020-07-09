@@ -114,7 +114,7 @@
     <b-modal size='xl' id='planning-stage-modal' title='Planning Stage' ok-only>
         <h3>Purpose: </h3> 
         <h5 class='modal-text'> define the main features and functionalities to be delivered by the end of the Iteration. </h5>
-        <h3>Continuity: </h3> <h5> 1 - 3 days </h5>
+        <h3>Continuity: </h3> <h5> 1 - 2 days </h5>
         <h3> Used Practices: </h3>
         <h5> Timeboxing, Planning Game, Methodology Shaping, Modelling  </h5>
         <h3>Key Notes: </h3>
@@ -169,7 +169,7 @@
         <h3>Purpose: </h3> 
         <h5 class='modal-text'> estimate the Product Increment from the business perspective with assistance 
             of the Project Manager; hold a retrospective to review the overall team’s performance </h5>
-        <h3>Continuity: </h3> <h5> 1 - 6 days </h5>
+        <h3>Continuity: </h3> <h5> 1 - 3 days </h5>
         <h3> Used Practices: </h3>
         <h5> Workshops  </h5>
         <h3>Key Notes: </h3>

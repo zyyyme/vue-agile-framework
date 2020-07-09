@@ -330,6 +330,7 @@ export default {
         font-weight: 300;
         position: relative;
         top: -200px;
+        z-index: 0;
     }
 
     a{
