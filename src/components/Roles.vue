@@ -172,11 +172,11 @@
     </b-modal>
     <b-modal size='xl' ref='pm-modal' id='pm-modal' title='Project Manager' ok-only>
         <h3>Description: </h3> 
-        <h5>A sole person accountable for product, budget, interactions with clients.</h5>
+        <h5>A sole person accountable for the product, budget, interactions with clients.</h5>
         <h3>Reasoning: </h3> 
         <ul>
             <li><h5>The Project Manager fulfills a role of “proxy” between 
-              stakeholders and everyone who is working on a project..</h5></li>
+              stakeholders and everyone who is working on a project.</h5></li>
             <li><h5>The Project Manager is responsible for the whole project.</h5></li>
         </ul>
         <h3>Desired Qualities:</h3>
@@ -192,14 +192,14 @@
         <h3>Responsibilities:</h3>
         <ol>
         <li><h5> Maximize the value of the product. </h5></li>
-        <li><h5> Manage the Product Backlog and Iteration Backlog which includes: </h5></li>
+        <li><h5> Manage the Product Backlog which includes: </h5></li>
         <ul>
             <li><h5>Planning and prioritizing the Product Backlog.</h5></li>
             <li><h5>Defining and accommodating Team Agreement (Definition of Done, Acceptance Criterias) 
               with Development team and validating completed User Stories.</h5></li>
             <li><h5>Clearly expressing Product Backlog items, so 
               that everyone from the Development Team understands them.</h5></li>
-            <li><h5>Ordering the items in the Product Backlog, optimizing 
+            <li><h5>Ordering items in the Product Backlog, optimizing 
               the work process to achieve goals in a more efficient way.</h5></li>
             <li><h5>Ensuring that the Product Backlog is visible, transparent, clear to all, 
               and shows the progress of the Development Team.</h5></li>
