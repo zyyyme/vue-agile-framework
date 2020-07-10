@@ -267,16 +267,6 @@ export default {
       border-style: solid;
   }
 
-  /*кружочки по линии*/
-  /* .second-timeline-item:before {
-      content: " ";
-      width: 1em;
-      height: 1em;
-      border-radius: 50%;
-      position: absolute;
-      background-color: rgba(126, 200, 189, .6);
-  } */
-
   .card {
       position: relative;
       display: flex;

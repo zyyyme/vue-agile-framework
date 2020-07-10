@@ -1,6 +1,6 @@
 # agile_framework
 
-> Agile Based Framework. IU Summer Internship 2020
+Agile Based Framework. Work was done during IU Summer Internship 2020 using [VueJS](https://vuejs.org/), [Vue Router](https://router.vuejs.org/), [Vue Bootstrap](https://bootstrap-vue.org/), [NPM](https://www.npmjs.com/) and [Webpack](https://webpack.js.org/). This framework combines best elements from various Agile frameworks to derive another approach to Agile methodologies.
 
 ## Build Setup
 
@@ -12,6 +12,7 @@ npm install
 npm run dev
 
 # build for production with minification
+# the resulting build is located in docs/ directory
 npm run build
 
 # build for production and view the bundle analyzer report

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-
+    <!-- Main module, contains navbar and router-view -->
     <div>
       <b-navbar toggleable="lg" type="dark" variant="info" style="background-color: #78C0B6">
         <b-navbar-brand href="#"><img src="./assets/logo.png" width="30" height="30" alt="logo"></b-navbar-brand>
@@ -67,13 +67,13 @@ h1{
   
 }
 
+/* Transitions between router-views */
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.2s;
   transition-property: opacity;
   transition-timing-function: ease;
 }
-
 .fade-enter,
 .fade-leave-active {
   opacity: 0
@@ -86,6 +86,8 @@ h1{
 .text-overview>h5{
     font-weight: 300;
 }
+
+/* b-modal is interpreted as standard bootstrap modal, hence styles are written for a standard bootstrap modal */
 
 .modal-title{
     font-weight: 500;
@@ -127,7 +129,8 @@ ul>li>h5 {
     text-align: initial;
 }
 
-nav{
-  z-index: 1000;
-}
+/* For svg-based pages */
+a{
+        cursor: pointer;
+    }
 </style>

@@ -66,6 +66,7 @@
             </div>
     </div>
 
+    <!-- A lot of modals. Most likely there is a way to make it easier with js -->
     <b-modal size='xl' id='user-stories-modal' title='User Stories' ok-only>
         <h3>Stage: </h3> 
         <h5 class='modal-text'> Project - Planning. </h5>

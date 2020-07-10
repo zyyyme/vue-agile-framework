@@ -2,14 +2,7 @@
   <div id='app'> 
   <span style="display: flex; align-items: center; justify-content: center;">
     <svg height="800" width="800">
-        
-        <!--
-        <line x1="590.212" y1="461.804" x2="707.768" y2="500" stroke-dasharray="4" stroke="#000000"></line>
-        <line x1="517.558" y1="238.196" x2="590.211" y2="138.197" stroke-dasharray="4" stroke="#000000"></line>
-        <line x1="282.442" y1="238.196" x2="209.789" y2="138.197" stroke-dasharray="4" stroke="#000000"></line>
-        <line x1="209.788" y1="461.804" x2="92.232" y2="500" stroke-dasharray="4" stroke="#000000"></line>
-        <line x1="400" y1="600" x2="400" y2="723.606" stroke-dasharray="4" stroke="#000000"></line>
-        -->
+
         <a @click="$bvModal.show('team-lead-modal')"><path  d="
         M 400.000 600.000
         L 635.114 723.606
@@ -199,7 +192,7 @@
               with Development team and validating completed User Stories.</h5></li>
             <li><h5>Clearly expressing Product Backlog items, so 
               that everyone from the Development Team understands them.</h5></li>
-            <li><h5>Ordering items in the Product Backlog, optimizing 
+            <li><h5>Ordering the items in the Product Backlog, optimizing 
               the work process to achieve goals in a more efficient way.</h5></li>
             <li><h5>Ensuring that the Product Backlog is visible, transparent, clear to all, 
               and shows the progress of the Development Team.</h5></li>

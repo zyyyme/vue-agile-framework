@@ -16,9 +16,9 @@
                 <h5 class='left-paragraph'> determine the development team </h5>
             </div>
             <h2 class="header" id="pre-project">Pre-Project</h2>
-        </div><!--
+        </div>
 
-        --><div class="column second-col">
+        <div class="column second-col">
             <div class="text-block">
                 <h3 class="number left-number triple-down">3</h3>
                 
@@ -43,9 +43,9 @@
                 <h5 class="left-paragraph"> review results</h5>
             </div>
             <h2 class="header" id="project">Project</h2>
-        </div><!--
+        </div>
 
-        --><div class="column third-col">
+        <div class="column third-col">
             <div class="text-block">
                 <h3 class="number right-number duble-down">8</h3>
                 <h3 class="stage right-stage">

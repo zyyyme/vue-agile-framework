@@ -1,109 +1,106 @@
 <template>
   <div id='app'> 
-    <svg height="1000" width="1000">
+    <svg height="800" width="1000">
         <defs>
             <marker id="arrowhead" markerWidth="10" markerHeight="7"
                     refX="0" refY="3.5" orient="auto">
                 <polygon points="0 0, 10 3.5, 0 7" />
             </marker>
         </defs>
-        <text font-family="Roboto Slab" stroke="#333333" font-size="30" x="490" y="580">Success</text>
-        <path d="M528.5,706 a200 100 30 0 1 -100 100" stroke="black" fill="transparent" marker-end="url(#arrowhead)"></path>
-        <path d="M440,502.5 a200 100 -30 0 1 -100 -100" stroke="black" fill="transparent" marker-end="url(#arrowhead)"></path>
-        <path d="M658.5 526.5 a200 100 30 0 0 100 -100" stroke="black" fill="transparent" marker-end="url(#arrowhead)"></path>
+        <text font-family="Roboto Slab" stroke="#333333" font-size="30" x="490" y="380">Success</text>
+        <path d="M528.5,506 a200 100 30 0 1 -100 100" stroke="black" fill="transparent" marker-end="url(#arrowhead)"></path>
+        <path d="M440,302.5 a200 100 -30 0 1 -100 -100" stroke="black" fill="transparent" marker-end="url(#arrowhead)"></path>
+        <path d="M658.5 326.5 a200 100 30 0 0 100 -100" stroke="black" fill="transparent" marker-end="url(#arrowhead)"></path>
         <path d="
-        M342,670
-        L538,335
-        A 7 7 0 0 1 548,336
-        A 1000 1000 0 0 1 585,436
-        A 1000 1000 0 0 1 602,516
-        A 500 500 0 0 1 602,556
-        A 100 100 0 0 0 489 529
-        A 800 800 0 0 0 342,670" fill="#FFDA71" fill-opacity="100%" stroke="#333333" stroke-width="1px"></path>
+            M342,470
+            L538,135
+            A 7 7 0 0 1 548,136
+            A 1000 1000 0 0 1 585,236
+            A 1000 1000 0 0 1 602,316
+            A 500 500 0 0 1 602,356
+            A 100 100 0 0 0 489 329
+            A 800 800 0 0 0 342,470" fill="#FFDA71" fill-opacity="100%" stroke="#333333" stroke-width="1px"></path>
         <path d="
-        M561,359
-        L756,694
-        A 7 7 0 0 1 749,702
-        A 1000 1000 0 0 1 699,696
-        A 1000 1000 0 0 1 597,673
-        A 500 500 0 0 1 531,640
-        A 100 100 0 0 0 606,516
-        A 800 800 0 0 0 561,359
-        " fill="#FFEA9E" fill-opacity="90%" stroke="#333333" stroke-width="1px"></path>
+            M561,159
+            L756,494
+            A 7 7 0 0 1 749,502
+            A 1000 1000 0 0 1 699,496
+            A 1000 1000 0 0 1 597,473
+            A 500 500 0 0 1 531,440
+            A 100 100 0 0 0 606,316
+            A 800 800 0 0 0 561,159
+            " fill="#FFEA9E" fill-opacity="90%" stroke="#333333" stroke-width="1px"></path>
         <path d="
-        M718,706
-        L331,706
-        A 7 7 0 0 1 331,694
-        A 1000 1000 0 0 1 356,660
-        A 1000 1000 0 0 1 398,612
-        A 500 500 0 0 1 492,538
-        A 100 100 0 0 0 553,662
-        A 800 800 0 0 0 718,706
-        " fill="#FBEBB5" fill-opacity="76%" stroke="#333333" stroke-width="1px"></path>
-        <text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight:500;"  x="475" y="465">Product</text>
-        <text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight:500;"  x="590" y="650">Dev team</text>
-        <text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight:500;" x="380" y="660">Customer</text>
+            M718,506
+            L331,506
+            A 7 7 0 0 1 331,494
+            A 1000 1000 0 0 1 356,460
+            A 1000 1000 0 0 1 398,412
+            A 500 500 0 0 1 492,338
+            A 100 100 0 0 0 553,462
+            A 800 800 0 0 0 718,506
+            " fill="#FBEBB5" fill-opacity="76%" stroke="#333333" stroke-width="1px"></path>
+        <text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight:500;"  x="475" y="265">Product</text>
+        <text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight:500;"  x="590" y="450">Dev team</text>
+        <text font-family="Roboto Slab" style="font-size: 30px; color: #333333; font-weight:500;" x="380" y="460">Customer</text>
         <path d="
-        M145,250
-        h310
-        a20 20 0 0 1 20 20
-        v105
-        a20 20 0 0 1 -20 20
-        h-310
-        a20 20 0 0 1 -20 -20
-        v-105
-        a20 20 0 0 1 20 -20
-        Z
-    " fill="none" stroke="#333333" stroke-width="3px"></path>
+            M60,50
+            h400
+            a20 20 0 0 1 20 20
+            v105
+            a20 20 0 0 1 -20 20
+            h-400
+            a20 20 0 0 1 -20 -20
+            v-105
+            a20 20 0 0 1 20 -20
+            Z
+        " fill="none" stroke="#333333" stroke-width="3px"></path>
         <path d="
-        M675,270
-        h300
-        a20 20 0 0 1 20 20
-        v110
-        a20 20 0 0 1 -20 20
-        h-300
-        a20 20 0 0 1 -20 -20
-        v-110
-        a20 20 0 0 1 20 -20
-        Z
-    " fill="none" stroke="#333333" stroke-width="3px"></path>
+            M650,70
+            h320
+            a20 20 0 0 1 20 20
+            v110
+            a20 20 0 0 1 -20 20
+            h-320
+            a20 20 0 0 1 -20 -20
+            v-110
+            a20 20 0 0 1 20 -20
+            Z
+        " fill="none" stroke="#333333" stroke-width="3px"></path>
         <path d="
-        M115,750
-        h285
-        a20 20 0 0 1 20 20
-        v70
-        a20 20 0 0 1 -20 20
-        h-285
-        a20 20 0 0 1 -20 -20
-        v-70
-        a20 20 0 0 1 20 -20
-        Z
-    " fill="none" stroke="#333333" stroke-width="3px"></path>
-        <text font-family="Roboto Slab" stroke="#333333" font-size="20" y="280">
-            <tspan x="180">Represent the needs </tspan>
-            <tspan dy="20" x="180">of the target audience</tspan>
-        </text>
-        <text font-family="Roboto Slab" style="color: #228E95;" font-size="20" y="300">
-            <a @click="$bvModal.show('min-waste-modal')"><tspan dy="40" x="130">Minimum waste & Maximum value</tspan></a>
-            <a @click="$bvModal.show('people-oriented-modal')"><tspan dy="40" x="200">People oriented</tspan></a>
-        </text>
-
-        <text font-family="Roboto Slab" stroke="#333333" font-size="20" y="300">
-            <tspan x="680">Knows how to implement ideas</tspan>
-        </text>
-        <text font-family="Roboto Slab" style="color: #228E95;" font-size="20" y="300">
-            <a @click="$bvModal.show('cfso-modal')"><tspan dy="40" x="660">Cross-functional & Self-organizing </tspan></a>
-            <a @click="$bvModal.show('otd-modal')"><tspan dy="40" x="760">On time delivery</tspan></a>
-            
-        </text>
-
-        <text font-family="Roboto Slab" stroke="#333333" font-size="20" y="780">
-            <tspan x="105">Knows how to run the business</tspan>
-        </text>
-        <text font-family="Roboto Slab" style="color: #228E95;" font-size="20" y="800">
-            <a @click="$bvModal.show('tnc-modal')"><tspan dy="40" x="100">Transparency & Communication</tspan></a>
-        </text>
+            M50,550
+            h350
+            a20 20 0 0 1 20 20
+            v70
+            a20 20 0 0 1 -20 20
+            h-350
+            a20 20 0 0 1 -20 -20
+            v-70
+            a20 20 0 0 1 20 -20
+            Z
+        " fill="none" stroke="#333333" stroke-width="3px"></path>
         
+        <text font-family="Roboto Slab" stroke="#333333" font-size="20" y="85" x="55">Represent the needs of the target audience</text>
+        <text font-family="Roboto Slab" style="color: #228E95;" font-size="20" y="100">
+            <a @click="$bvModal.show('min-waste-modal')"><tspan dy="40" x="55">Minimum waste & Maximum value</tspan></a>
+            <a @click="$bvModal.show('people-oriented-modal')"><tspan dy="30" x="55">People oriented</tspan></a>
+        </text>
+
+        <text font-family="Roboto Slab" stroke="#333333" font-size="20" y="100">
+            <tspan x="650">Knows how to implement ideas</tspan>
+        </text>
+        <text font-family="Roboto Slab" style="color: #228E95;" font-size="20" y="120">
+            <a @click="$bvModal.show('cfso-modal')"><tspan dy="40" x="650">Cross-functional & Self-organizing </tspan></a>
+            <a @click="$bvModal.show('otd-modal')"><tspan dy="20" x="650">On time delivery</tspan></a>
+
+        </text>
+
+        <text font-family="Roboto Slab" stroke="#333333" font-size="20" y="580">
+            <tspan x="40">Knows how to run the business</tspan>
+        </text>
+        <text font-family="Roboto Slab" style="color: #228E95;" font-size="20" y="590">
+            <a @click="$bvModal.show('tnc-modal')"><tspan dy="40" x="40">Transparency & Communication</tspan></a>
+        </text>
     </svg>
     <b-modal size='xl' ref='min-waste-modal' id='min-waste-modal' title='Minimum Waste & Maximum Value' ok-only>
         <h5>Identify every step that does not create value and then find 
@@ -328,12 +325,5 @@ export default {
 <style scoped>
     svg {
         font-weight: 300;
-        position: relative;
-        top: -200px;
-        z-index: 0;
-    }
-
-    a{
-        cursor: pointer;
     }
 </style>
